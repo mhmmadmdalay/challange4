@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    padding-left: 100px;
+
+}
+.contentt{
+    padding: 50px;
+    gap: 10px;
+}
+
+.offCanvas {
+    display: none;
+}
+
+
+@media (max-width: 768px){
+    
+    .offCanvas{
+        display: unset;
+        position: sticky;
+        width: 100%;
+        margin: 50px;
+        
+    }
+    .desktop {
+        display: none;
+    }
+    .banner{
+        padding: 0px;
+
+    }
+    /* #our-service{
+        flex-direction: column;
+        flex-basis: content;
+    } */
+
+   .contentWhyUs{
+       text-align: center;
+   }
+   .cardWhyUs{
+    gap: 12px;
+    justify-content: center;
+   }
+
+   .cardWhyUs .content{
+       flex-basis: content;
+   }
+   .accordion {
+    text-align: center; 
+    }
+
+.gambarFooter{
+    width: 100%;
+    }
+
+    
+    .center {
+        resize: auto;
+    }
+
+}
+
